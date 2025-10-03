@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataStructLab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>DataStructLab</h1>
+            <h1>Data Structures & Algorithms Visualizer</h1>
+        </div>
+        
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="category">
+                    <h3>Data Structures</h3>
+                    <div class="menu-item" data-ds="array">Array</div>
+                    <div class="menu-item" data-ds="stack">Stack</div>
+                    <div class="menu-item" data-ds="queue">Queue</div>
+                    <div class="menu-item" data-ds="linkedlist">Linked List</div>
+                    <div class="menu-item" data-ds="bst">Binary Search Tree</div>
+                    <div class="menu-item" data-ds="heap">Heap</div>
+                    <div class="menu-item" data-ds="graph">Graph</div>
+                    <div class="menu-item" data-ds="hashtable">Hash Table</div>
+                </div>
+                
+                <div class="category">
+                    <h3>Sorting Algorithms</h3>
+                    <div class="menu-item" data-algo="bubble">Bubble Sort</div>
+                    <div class="menu-item" data-algo="selection">Selection Sort</div>
+                    <div class="menu-item" data-algo="insertion">Insertion Sort</div>
+                    <div class="menu-item" data-algo="merge">Merge Sort</div>
+                    <div class="menu-item" data-algo="quick">Quick Sort</div>
+                </div>
+                
+                <div class="category">
+                    <h3>Search Algorithms</h3>
+                    <div class="menu-item" data-algo="linear">Linear Search</div>
+                    <div class="menu-item" data-algo="binary">Binary Search</div>
+                </div>
+            </div>
+            
+            <div class="visualization-area" id="vizArea">
+                <h2>Welcome to DataStructLab-DSA Visualizer!</h2>
+                <p>Select a data structure or algorithm from the menu to begin.</p>
+            </div>
+        </div>
+    </div>
+    <!--Footer Section  -->
+     <div id="footer">
+        <h3>DataStructLab</h3> <hr>
+        <div id="footer-content">
+            <span>&copy; 2025 DataStructLab. All rights reserved.</span>
+            <span>Designed & Developed by <a href="https://linkedin.com/in/shaiksuhelahmed03" target="_blank">Shaik Suhel</a></span>
+        </div>
+     </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
